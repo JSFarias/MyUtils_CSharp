@@ -1,0 +1,8 @@
+//Calculate the normalized float;     
+normalizedFloat = (i - min) / (max - min);
+
+//Clamp the "i" float between "min" value and "max" value
+i = Mathf.Clamp(i, min, max);
+
+//Clamp the normalized float between 0 and 1
+normalizedFloat = Mathf.Clamp(normalizedFloat, 0, 1);
